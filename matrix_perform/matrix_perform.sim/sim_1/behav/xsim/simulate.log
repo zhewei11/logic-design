@@ -1,0 +1,11 @@
+Time resolution is 1 ps
+At time                    0, Pcount =          0, PixData =     0, PixData_x =     x
+At time               120000, Pcount =          4, PixData =     0, PixData_x =     x
+At time               140000, Pcount =          8, PixData =     0, PixData_x =     x
+At time               160000, Pcount =         12, PixData =     0, PixData_x =     x
+At time               180000, Pcount =         16, PixData =     0, PixData_x =     x
+At time               200000, Pcount =         20, PixData =     0, PixData_x =     x
+At time               220000, Pcount =         32, PixData =     0, PixData_x =     x
+At time               240000, Pcount =         48, PixData =     0, PixData_x =     x
+At time               260000, Pcount =         64, PixData =     0, PixData_x =     x
+$stop called at time : 280 ns : File "C:/Users/±i­õºû/Desktop/logic_design_project/LEDmatrix/perform_test.v" Line 60

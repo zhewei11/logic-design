@@ -1,0 +1,10 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"C:/Users/±i­õºû/Desktop/logic_design_project/LEDmatrix/matrix_perform.v" \
+"C:/Users/±i­õºû/Desktop/logic_design_project/LEDmatrix/perform_test.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

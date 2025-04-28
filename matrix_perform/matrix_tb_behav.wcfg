@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="matrix_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="matrix_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="175.272 ns"></ZoomEndTime>
+      <Cursor1Time time="273.488 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="340"></NameColumnWidth>
+      <ValueColumnWidth column_width="155"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="6" />
+   <wvobject fp_name="/matrix_tb/clk_50M" type="logic">
+      <obj_property name="ElementShortName">clk_50M</obj_property>
+      <obj_property name="ObjectShortName">clk_50M</obj_property>
+   </wvobject>
+   <wvobject fp_name="/matrix_tb/rst_n" type="logic">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/matrix_tb/Pcount" type="array">
+      <obj_property name="ElementShortName">Pcount[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Pcount[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/matrix_tb/PixData" type="array">
+      <obj_property name="ElementShortName">PixData[15:0]</obj_property>
+      <obj_property name="ObjectShortName">PixData[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/matrix_tb/PixData_x" type="array">
+      <obj_property name="ElementShortName">PixData_x[15:0]</obj_property>
+      <obj_property name="ObjectShortName">PixData_x[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/matrix_tb/uut/Pixaddr" type="array">
+      <obj_property name="ElementShortName">Pixaddr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Pixaddr[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>
