@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="185.001 ns"></ZoomEndTime>
+      <Cursor1Time time="184.997 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="152"></NameColumnWidth>
+      <ValueColumnWidth column_width="141"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="9" />
+   <wvobject fp_name="/tb/A_in" type="array">
+      <obj_property name="ElementShortName">A_in[3:0]</obj_property>
+      <obj_property name="ObjectShortName">A_in[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/B_in" type="array">
+      <obj_property name="ElementShortName">B_in[3:0]</obj_property>
+      <obj_property name="ObjectShortName">B_in[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/Sum_o" type="array">
+      <obj_property name="ElementShortName">Sum_o[3:0]</obj_property>
+      <obj_property name="ObjectShortName">Sum_o[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/overflow" type="logic">
+      <obj_property name="ElementShortName">overflow</obj_property>
+      <obj_property name="ObjectShortName">overflow</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/i" type="array">
+      <obj_property name="ElementShortName">i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/j" type="array">
+      <obj_property name="ElementShortName">j[31:0]</obj_property>
+      <obj_property name="ObjectShortName">j[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/answer" type="array">
+      <obj_property name="ElementShortName">answer[3:0]</obj_property>
+      <obj_property name="ObjectShortName">answer[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/overflow_ans" type="logic">
+      <obj_property name="ElementShortName">overflow_ans</obj_property>
+      <obj_property name="ObjectShortName">overflow_ans</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/error" type="array">
+      <obj_property name="ElementShortName">error[31:0]</obj_property>
+      <obj_property name="ObjectShortName">error[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>

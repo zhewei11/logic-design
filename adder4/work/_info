@@ -1,0 +1,96 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/logic_design/truth_table
+vadder4
+Z0 !s110 1713489868
+!i10b 1
+!s100 H5AHeeCMnQW9;l9W[C4hT2
+I3d<lS>z]CS;nG8CXW6V803
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dD:/logic_design/adder4
+w1713427690
+8adder4.v
+Fadder4.v
+L0 3
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1713489867.000000
+Z5 !s107 FA.v|adder4.v|D:\logic_design\adder4\adder4_tb.v|
+Z6 !s90 -reportprogress|300|-work|work|-stats=none|D:\logic_design\adder4\adder4_tb.v|
+!i113 1
+Z7 o-work work
+Z8 tCvgOpt 0
+vF_A
+!s110 1713427197
+!i10b 1
+!s100 5b<DKP?MY`7CJNIG_Elln2
+Im:zfUcGj;gbJH4`ehF5h73
+R1
+dC:/Users/logic_design/adder4
+w1712071484
+8C:/Users/logic_design/adder4/FA.v
+FC:/Users/logic_design/adder4/FA.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1713427197.000000
+!s107 C:/Users/logic_design/adder4/FA.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/logic_design/adder4/FA.v|
+!i113 1
+R7
+R8
+n@f_@a
+vFA
+R0
+!i10b 1
+!s100 iVI0zk[3Il^i1X<HRE5QA0
+I:MnOaW3i7Dl?G;L2VJ7SV1
+R1
+R2
+w1713427258
+8FA.v
+FFA.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+R8
+n@f@a
+vtb
+R0
+!i10b 1
+!s100 e<LUK7AdUX8G5HFgW@b=D0
+IhSg3ZKJFYd;?2HHY61ThW1
+R1
+R2
+w1713489862
+8D:\logic_design\adder4\adder4_tb.v
+FD:\logic_design\adder4\adder4_tb.v
+L0 4
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+R8
