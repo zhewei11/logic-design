@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/logic_design/logic_gate
+vtb
+Z0 !s110 1713426915
+!i10b 1
+!s100 W6E`MUI0l^eO?`:;[<XQe1
+I]99FQRe0C0PmHj:La=T>Y3
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Users/logic_design/truth_table
+w1713426904
+8C:/Users/logic_design/truth_table/truth_table_tb.v
+FC:/Users/logic_design/truth_table/truth_table_tb.v
+L0 5
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1713426915.000000
+Z5 !s107 truth_table.v|C:/Users/logic_design/truth_table/truth_table_tb.v|
+Z6 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/logic_design/truth_table/truth_table_tb.v|
+!i113 1
+Z7 o-work work
+Z8 tCvgOpt 0
+vtruth_table
+R0
+!i10b 1
+!s100 ZI^`Ehc^nRmJYa0`;P6GU1
+IfnzJ=mOm5G;jg0g19PU6?3
+R1
+R2
+w1713420616
+8truth_table.v
+Ftruth_table.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+R8

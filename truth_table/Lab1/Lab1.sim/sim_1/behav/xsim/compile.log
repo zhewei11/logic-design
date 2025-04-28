@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/logic_design/truth_table/truth_table.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module truth_table
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/logic_design/truth_table/truth_table_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module truth_table
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'truth_table' [C:/Users/logic_design/truth_table/truth_table.v:1]
+INFO: [VRFC 10-311] analyzing module tb

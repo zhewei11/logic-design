@@ -1,0 +1,16 @@
+C:/Users/logic_design/truth_table/truth_table.v {1 {vlog -work work -stats=none C:/Users/logic_design/truth_table/truth_table.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module truth_table
+
+Top level modules:
+	truth_table
+
+} {} {}} C:/Users/logic_design/truth_table/truth_table_tb.v {1 {vlog -work work -stats=none C:/Users/logic_design/truth_table/truth_table_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module truth_table
+-- Compiling module tb
+
+Top level modules:
+	tb
+
+} {} {}}
