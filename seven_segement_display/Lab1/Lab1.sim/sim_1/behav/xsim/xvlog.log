@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/logic_design/seven_segement_display/seven_segment_display.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module seven_segment_display
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/logic_design/seven_segement_display/seven_segment_display_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module seven_segment_display
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'seven_segment_display' [C:/Users/logic_design/seven_segement_display/seven_segment_display.v:1]
+INFO: [VRFC 10-311] analyzing module tb

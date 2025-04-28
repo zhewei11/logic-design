@@ -1,0 +1,8 @@
+C:/Users/logic_design/seven_segement_display/seven_segment_display.v {1 {vlog -work work -stats=none {C:\Users\logic_design\seven_segement_display\seven_segment_display.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module seven_segment_display
+
+Top level modules:
+	seven_segment_display
+
+} {} {}}

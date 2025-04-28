@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/logic_design/adder4
+vseven_segment_display
+Z0 !s110 1713432565
+!i10b 1
+!s100 g^lzW;:WhK59Xc_Ai`aJK3
+IG<]7FC=W?OH8K6kdd2o7Q1
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Users/logic_design/seven_segement_display
+w1713432559
+8seven_segment_display.v
+Fseven_segment_display.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1713432565.000000
+Z5 !s107 seven_segment_display.v|C:\Users\logic_design\seven_segement_display\seven_segment_display_tb.v|
+Z6 !s90 -reportprogress|300|-work|work|-stats=none|C:\Users\logic_design\seven_segement_display\seven_segment_display_tb.v|
+!i113 1
+Z7 o-work work
+Z8 tCvgOpt 0
+vtb
+R0
+!i10b 1
+!s100 ^z7:__7<DJ;F54NIc[CkN3
+IRT1ifC80d;bI08afd9D?52
+R1
+R2
+w1713432484
+8C:\Users\logic_design\seven_segement_display\seven_segment_display_tb.v
+FC:\Users\logic_design\seven_segement_display\seven_segment_display_tb.v
+L0 5
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+R8
