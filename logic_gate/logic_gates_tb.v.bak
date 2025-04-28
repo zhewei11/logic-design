@@ -1,0 +1,75 @@
+`timescale 1ns / 10ps
+`include "logic_gates.v"
+`define CYCLE 10
+
+module tb;
+    reg  Ain, Bin, Cin, Din, Ein, Fin, Gin;
+    wire Zout;
+    integer error;
+    reg answer;
+    integer i;
+
+    logic_gates L(Ain, Bin, Cin, Din, Ein, Fin, Gin, Zout);
+
+    initial begin
+        error = 0;
+        answer = 0;
+        i = 0;
+        #(`CYCLE);
+
+        // Iterate through all possible input combinations
+        for (i = 0; i < 128; i = i + 1) begin
+            Ain = i[6];
+            Bin = i[5];
+            Cin = i[4];
+            Din = i[3];
+            Ein = i[2];
+            Fin = i[1];
+            Gin = i[0];
+
+            // Evaluate the expected value of Z based on the logic equation
+            if ((~(Ain | Bin) & (Cin & Din)) | ((~Ein | Fin) & Gin)) begin
+                answer = 1;
+            end else begin
+                answer = 0;
+            end
+	    #(`CYCLE);
+
+            // Check the output Zout against the expected value
+            if (Zout != answer) begin
+		$write("%d: the answer is %d , your answer is %d\n",i,answer,Zout);
+
+                error = error + 1;
+            end
+            #(`CYCLE);
+        end
+
+        if (error == 0) begin
+            $display("\n");
+            $display("\n");
+            $display("        **************************       .--.      ");
+            $display("        *                        *      |o_o |     ");
+            $display("        *  Congratulations !!    *      |:_/ |     "); 
+            $display("        *                        *     //   \ \    "); 
+            $display("        *    Simulation PASS!!   *    (|     | )   ");
+            $display("        *                        *   /'\_   _/`\   ");
+            $display("        **************************   \___)=(___/   ");
+            $display("\n");     
+        end else begin
+            $display("\n");
+            $display("\n");
+            $display("        **************************       .--.      ");
+            $display("        *                        *      |x_x |     ");
+            $display("        *  OOPS!                 *      |:_/ |     "); 
+            $display("        *                        *     //   \ \    "); 
+            $display("        *  Simulation Failed!!   *    (|     | )   ");
+            $display("        *                        *   /'\_   _/`\   ");
+            $display("        **************************   \___)=(___/   ");
+            $display("         Totally has %d errors                      ", error);
+            $display("\n");     
+        end
+
+        $finish; // $finish should be placed inside an initial block
+    end
+
+endmodule

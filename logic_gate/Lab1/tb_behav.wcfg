@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="1,000.001 ns"></ZoomEndTime>
+      <Cursor1Time time="291.328 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="152"></NameColumnWidth>
+      <ValueColumnWidth column_width="141"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="11" />
+   <wvobject fp_name="/tb/Ain" type="logic">
+      <obj_property name="ElementShortName">Ain</obj_property>
+      <obj_property name="ObjectShortName">Ain</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/Bin" type="logic">
+      <obj_property name="ElementShortName">Bin</obj_property>
+      <obj_property name="ObjectShortName">Bin</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/Cin" type="logic">
+      <obj_property name="ElementShortName">Cin</obj_property>
+      <obj_property name="ObjectShortName">Cin</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/Din" type="logic">
+      <obj_property name="ElementShortName">Din</obj_property>
+      <obj_property name="ObjectShortName">Din</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/Ein" type="logic">
+      <obj_property name="ElementShortName">Ein</obj_property>
+      <obj_property name="ObjectShortName">Ein</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/Fin" type="logic">
+      <obj_property name="ElementShortName">Fin</obj_property>
+      <obj_property name="ObjectShortName">Fin</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/Gin" type="logic">
+      <obj_property name="ElementShortName">Gin</obj_property>
+      <obj_property name="ObjectShortName">Gin</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/Zout" type="logic">
+      <obj_property name="ElementShortName">Zout</obj_property>
+      <obj_property name="ObjectShortName">Zout</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/answer" type="logic">
+      <obj_property name="ElementShortName">answer</obj_property>
+      <obj_property name="ObjectShortName">answer</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/i" type="array">
+      <obj_property name="ElementShortName">i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/error" type="array">
+      <obj_property name="ElementShortName">error[31:0]</obj_property>
+      <obj_property name="ObjectShortName">error[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>

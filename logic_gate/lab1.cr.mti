@@ -1,0 +1,16 @@
+C:/Users/logic_design/logic_gate/logic_gates.v {1 {vlog -work work -stats=none C:/Users/logic_design/logic_gate/logic_gates.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module logic_gates
+
+Top level modules:
+	logic_gates
+
+} {} {}} C:/Users/logic_design/logic_gate/logic_gates_tb.v {1 {vlog -work work -stats=none C:/Users/logic_design/logic_gate/logic_gates_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module logic_gates
+-- Compiling module tb
+
+Top level modules:
+	tb
+
+} {} {}}
